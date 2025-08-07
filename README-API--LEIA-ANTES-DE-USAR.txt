@@ -42,7 +42,7 @@ Você precisa informar sua chave de conexão do banco de dados MongoDB.
 
 
    Exemplo de como deve ficar:
-   MONGO_URI = 'mongodb+srv://meu_usuario:minha_senha_123@cluster0.abcde.mongodb.net/meuBancoDeDados'
+   MONGO_URI = 'mongodb+srv://<meu_usuario>:<minha_senha_123>@cluster0.abcde.mongodb.net/<meuBancoDeDados>'
 
 
 5. Salve o arquivo e feche o editor.
@@ -59,16 +59,16 @@ ESTRUTURA DE ARQUIVOS
 Esta pasta contém os seguintes arquivos e diretórios:
 
 
-| Arquivo ou Pasta   | Descrição                                                          |
-|----------------------|-------------------------------------------------------------------|
-| api/                   | Diretorio com todo o código-fonte da API.                |
+| Arquivo ou Pasta  | Descrição                                          |       
+|-------------------|----------------------------------------------------|
+| api/              | Diretorio com todo o código-fonte da API.          |           
 | instalar-tudo.bat | Script de instalação automática (executar 1 vez).  |
-| iniciar-api.bat    | Script para iniciar a API manualmente.                    |
-| parar-api.bat     | Script para parar a API manualmente.                     |
-| verificar-api.bat | Script de verificação de APIs cadastradas.              |
+| iniciar-api.bat   | Script para iniciar a API manualmente.             |        
+| parar-api.bat     | Script para parar a API manualmente.               |     
+| verificar-api.bat | Script de verificação de APIs cadastradas.         |    
 | deletar-api.bat   | Script para DELETAR a API manualmente.             |
-| reiniciar-api.bat | Script para reiniciar a API manualmente.                 |
-| README.txt      | Este guia explicativo.                                               |
+| reiniciar-api.bat | Script para reiniciar a API manualmente.           |     
+| README.txt        | Este guia explicativo.                             |         
 
 
 
